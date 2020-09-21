@@ -1,0 +1,10 @@
+resources:
+  - disallow_bind_mounts.yaml
+  - disallow_docker_sock_mount.yaml
+  - disallow_helm_tiller.yaml
+  - disallow_host_network_port.yaml
+  - disallow_new_capabilities.yaml
+  - disallow_privileged.yaml
+  - disallow_root_user.yaml
+  - disallow_sysctls.yaml
+  - require_ro_rootfs.yaml
