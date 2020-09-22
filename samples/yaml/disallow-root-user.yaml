@@ -1,0 +1,12 @@
+kind: "Pod"
+apiVersion: "v1"
+metadata:
+  name: nginx
+  labels:
+    app.kubernetes.io/name: nginx
+spec:
+  containers:
+  - name: "nginx"
+    image: "nginx:latest"
+    securityContext:
+          runAsUser: 0
